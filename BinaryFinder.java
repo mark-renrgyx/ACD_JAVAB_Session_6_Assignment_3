@@ -33,8 +33,8 @@ public class BinaryFinder {
 				endingIndex = next;
 		}
 		if (found == -1)
-			System.out.println("String not found");
+			System.out.println("Integer not found");
 		else
-			System.out.println("String found at index " + found);
+			System.out.println("Integer found at index " + found);
 	}
 }
